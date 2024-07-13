@@ -17,6 +17,15 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.4.0]
+
+### Added
+
+* Code Of Conduct
+* vscode config
+* tools.go and makefile to handle dev dependencies
+* golangci config
+
 ## [0.3.0]
 
 ### Changed
