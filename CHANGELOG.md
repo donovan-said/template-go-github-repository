@@ -17,6 +17,16 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.5.0]
+
+### Added
+
+* Makefile to handle linting and depedencies
+
+### Changed
+
+* pre-commit-config to run makefil for Go tasks
+
 ## [0.4.0]
 
 ### Added
