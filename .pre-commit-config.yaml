@@ -7,8 +7,11 @@ repos:
       - id: check-yaml
       - id: end-of-file-fixer
       - id: trailing-whitespace
-  - repo: https://github.com/TekWizely/pre-commit-golang
-    rev: v1.0.0-rc.1
+  - repo: local
     hooks:
-      - id: go-fmt
-      - id: go-vet
+      - id: make-all
+        name: make-all
+        description: a hook to run make-all
+        entry: make
+        args: ["all"]
+        language: system
