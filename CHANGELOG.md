@@ -21,11 +21,11 @@ __Reference__:
 
 ### Added
 
-* Makefile to handle linting and depedencies
+* Makefile to handle linting and dependencies
 
 ### Changed
 
-* pre-commit-config to run makefil for Go tasks
+* pre-commit-config to run makefile for Go tasks
 
 ## [0.4.0]
 
